@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Base */
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -10,13 +10,17 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    
+
 }
 
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+.none{
+    display: none !important;
 }
 
 /* Header */
@@ -157,9 +161,9 @@ body {
 
 .messangers {
     display: flex;
+    flex-wrap: wrap;
     column-gap: 30px;
-
-
+    row-gap: 30px;
 }
 
 
@@ -237,25 +241,25 @@ body {
 
 }
 
-.inner-page-link{
+.inner-page-link {
     color: #000000;
 
 }
 
 
-.inner-page-link a{
+.inner-page-link a {
     color: #000000;
     text-decoration: underline;
 }
 
-.inner-page-img{
+.inner-page-img {
     display: block;
     margin: 0 auto;
     margin-bottom: 40px;
 }
 
-.inner-page-backlink{
-    
+.inner-page-backlink {
+
     max-width: 770px;
     background-color: #f1f1f1;
     padding: 10px;
@@ -271,6 +275,10 @@ body {
 }
 
 
-.inner-page-backlink:hover{
+.inner-page-backlink:hover {
     background-color: #dedede;
 }
+
+
+
+@import "media"

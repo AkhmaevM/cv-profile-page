@@ -12,9 +12,13 @@ body {
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.none {
+  display: none !important;
 }
 
 /* Header */
@@ -146,8 +150,10 @@ body {
 
 .messangers {
   display: flex;
+  flex-wrap: wrap;
   -moz-column-gap: 30px;
        column-gap: 30px;
+  row-gap: 30px;
 }
 
 .messanger {
