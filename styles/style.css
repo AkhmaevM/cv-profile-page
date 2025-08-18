@@ -247,4 +247,30 @@ body {
 
 .inner-page-backlink:hover {
   background-color: #dedede;
+}
+
+@media (max-width: 1000px) {
+  .header-row {
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+  }
+  .header-img {
+    width: 300px;
+    background-repeat: 30px;
+  }
+  .header-title {
+    font-size: 52px;
+  }
+  .header-text {
+    font-size: 22px;
+  }
+  .portfolio-title {
+    font-size: 42px;
+  }
+  .contacts-title {
+    font-size: 42px;
+  }
+  .inner-page-title {
+    font-size: 42px;
+  }
 }/*# sourceMappingURL=style.css.map */
