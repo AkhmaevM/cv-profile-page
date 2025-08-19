@@ -29,6 +29,9 @@
     padding-bottom: 40px;
     border-bottom-right-radius: 60px;
   }
+  .header-video {
+    border-bottom-right-radius: 60px;
+  }
   .header-row {
     display: flex;
     flex-direction: column;
