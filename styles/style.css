@@ -301,6 +301,9 @@ body {
     padding-bottom: 40px;
     border-bottom-right-radius: 60px;
   }
+  .header-video {
+    border-bottom-right-radius: 60px;
+  }
   .header-row {
     display: flex;
     flex-direction: column;
@@ -371,6 +374,7 @@ body {
   }
   .inner-page-img {
     margin-bottom: 20px;
+    max-width: 290px;
   }
   .inner-page-backlink {
     padding: 20px;
